@@ -1,0 +1,6 @@
+app-router/node_modules/**
+core-db/node_modules/**
+core-db/node_modules/**
+core-py/__pycache__/**
+core-py/vendor/**
+core-py/google-credentials.json

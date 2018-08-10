@@ -1,0 +1,25 @@
+#panel {
+    background: rgb(240,248,255);
+    height: 85%;
+    width: 90%;
+    overflow: scroll;
+    overflow-wrap: break-word;
+    margin-top: 2%;
+}
+
+#panelTitle {
+    background: rgb(255, 224, 51);
+    border-bottom: 1 px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    margin-top: 0;
+}
+
+#panelTitle h2{
+    margin-top: 0;
+    padding-left: 5px;
+}
+
+#panel p{
+    padding-left: 5px;
+}
