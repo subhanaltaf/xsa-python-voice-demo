@@ -6,7 +6,7 @@
     var startBtn = document.getElementById('startBtn');
 
     var websocketPromise = new Promise((resolve, reject) => {
-        var socket = io.connect('wss://core-py.hanapm.local.com:30033/transcribe');
+        var socket = io.connect('/core-py/transcribe');
         socket.on('open', resolve(socket));
         socket.on('error', reject());
     });
